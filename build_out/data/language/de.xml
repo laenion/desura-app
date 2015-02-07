@@ -617,6 +617,8 @@
 		<str name="#SET_CV_DISABLE_WGE_TOOLTIP">Verhindert, dass Desura Spiele in den Windows-Spieleexplorer stellt.</str>
 		<str name="#SET_CV_NEWS_POPUP_ENABLE">Popupfenster mit neuen Infos zulassen</str>
 		<str name="#SET_CV_NEWS_POPUP_ENABLE_TOOLTIP">Aktiviert oder deaktiviert Popupfenster mit aktuellen Infos.</str>
+		<str name="#SET_CV_GAMESPATH">Standard-Installationsverzeichnis</str>
+		<str name="#SET_CV_GAMESPATH_TOOLTIP">Verzeichnis, in dem die Spiele standardmäßig installiert werden sollen.</str>
 
 		<str name="#SET_CV_WORKER">Worker-Threads</str>
 		<str name="#SET_CV_WORKER_TOOLTIP">Die Anzahl von Workers, die für Prozesse (wie Erstellung einer MCF) verwendet werden.</str>

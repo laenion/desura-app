@@ -19,6 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 cvar_gen = [ 
 	{name: 'gc_linux_launch_globalbin', 		type: 'TEXTBOX', 		displayName: '#SET_CV_GLOBALBIN', 		help: '#SET_CV_GLOBALBIN_TOOLTIP'},
 	{name: 'gc_linux_launch_globalargs', 		type: 'TEXTBOX', 		displayName: '#SET_CV_GLOBALARGS', 		help: '#SET_CV_GLOBALARGS_TOOLTIP'},
+	{name: 'gc_games_path', 			type: 'BROWSE', 		displayName: '#SET_CV_GAMESPATH', 		help: '#SET_CV_GAMESPATH_TOOLTIP'},
 
 	{name: 'gc_language', 						type: 'CB_LANGUAGE', 	displayName: '#SET_CV_LANG', 			help: '#SET_CV_LANG_TOOLTIP'},
 	{name: 'gc_savelogin', 						type: 'CHECKBOX', 		displayName: '#SET_CV_AUTOLOGIN', 		help: '#SET_CV_AUTOLOGIN_TOOLTIP'},

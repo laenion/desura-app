@@ -231,6 +231,19 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>
 	</tr>
 </script>
 
+<script id="setting_BROWSE" type="text/html">
+	<tr>
+		<th><label for="select<#= item.name #>"><#= desura.utils.getLocalString(item.displayName) #></label></th>
+		<td>
+			<label>
+				<# var curValue=desura.settings.getValue(item.name); #>
+				<input class="setting_cvar txtpath" rel="<#= item.name #>" type=text name="<#= item.name #>" value="<#= curValue #>" title="<#= desura.utils.getLocalString(item.help) #>" size=50 />
+				<input class="minimal btnbrowse" type="button" value="<#= desura.utils.getLocalString("#SET_CIP_BUT_BROWSE") #>" />
+			</label>
+		</td>
+	</tr>
+</script>
+
 <script id="setting_CB_LANGUAGE" type="text/html">
 	<tr>
 		<th><label for="select<#= item.name #>"><#= desura.utils.getLocalString(item.displayName) #></label></th>

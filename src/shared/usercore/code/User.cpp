@@ -388,7 +388,11 @@ void User::onNeedWildCardCB(WCSpecialInfo& info)
 #endif
 	else if (Safe::stricmp("APPLICATION", info.name.c_str()) == 0)
 	{
-		info.result = UTIL::OS::getAppInstallPath();
+		gcString path = getCVarValue("gc_games_path");
+		if (! path.empty())
+			info.result = path;
+		else
+			info.result = UTIL::OS::getAppInstallPath();
 		info.handled = true;
 	}
 }

@@ -252,6 +252,7 @@ CVar gc_linux_launch_globalargs("gc_linux_launch_globalargs", "", CVAR_LINUX_ONL
 CVar gc_safe_uploads("gc_safe_uploads", "0", CFLAG_USER);
 
 CVar gc_mcfcreate_nopatch("gc_mcfcreate_nopatch", "0", CFLAG_USER);
+CVar gc_games_path("gc_games_path", "", 0);
 
 #ifdef DESURA_OFFICIAL_BUILD
 
